@@ -41,7 +41,7 @@ namespace DrovoAPI.Classes
                     {"Content-type","charset=UTF-8" },
                     {"Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" }
             };
-                request.Timeout = 15000;
+                request.Timeout = 20000;
                 WebResponse webResponse = await request.GetResponseAsync();
 
                 HttpWebResponse response = (HttpWebResponse)(webResponse);
