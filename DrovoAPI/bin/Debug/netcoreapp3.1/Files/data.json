@@ -1,0 +1,38 @@
+[
+  {
+    "$type": "DrovoAPI.Classes.Site, DrovoAPI",
+    "Id": 2,
+    "Domain": "https://www.dns-shop.ru",
+    "CategoryId": 1,
+    "Name": "DNS",
+    "Description": "Магазин электроники",
+    "Image": "",
+    "SearchString": "/search/?q=REQQUERY&p=PAGENUM",
+    "ItemsPerPage": 18,
+    "LinkXPath": "",
+    "TitleXPath": "//div[@class='catalog-product ui-button-widget']/a[@class='catalog-product__name ui-link ui-link_black' and 1]/span[1]' and 1]",
+    "DescriptionXPath": "",
+    "PriceXPath": "",
+    "RatingXPath": "",
+    "PopularityXPath": "",
+    "ImageXPath": ""
+  },
+  {
+    "$type": "DrovoAPI.Classes.Site, DrovoAPI",
+    "Id": 1,
+    "Domain": "https://www.technopark.ru",
+    "CategoryId": 1,
+    "Name": "Технопарк",
+    "Description": "Магазин электроники",
+    "Image": "http://toplogos.ru/images/logo-tehnopark.jpg",
+    "SearchString": "/search/?q=REQQUERY&p=PAGENUM",
+    "ItemsPerPage": 24,
+    "LinkXPath": "",
+    "TitleXPath": "//div[@class='card-listing__body' and 1]/a[@class='card-listing__overlay-link js-analytics-card--link' and 1]/@title/substring(., 10)",
+    "DescriptionXPath": "",
+    "PriceXPath": "",
+    "RatingXPath": "",
+    "PopularityXPath": "",
+    "ImageXPath": ""
+  }
+]
