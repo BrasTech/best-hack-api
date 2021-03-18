@@ -5,7 +5,7 @@
 
 В ответ сервер возвращает JSON в формате:
 
-{ "category": "Техника", "total": 1, "list": [ { "name": "Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)", "rating": 5, "popularity": 48, "averagePrice": 84990, "logo": "https://static.eldorado.ru/photos/71/715/665/47/new_71566547_l_1602620544.jpeg/resize/200x200/", "markets": [ { "name": "Эьдорадо", "description": "Магазин электроники", "logo": "https://static.beeline.ru/upload/images/b2c/bee-logo/single.png", "price": 84990, "link": "https://www.eldorado.ru/cat/detail/smartfon-apple-iphone-12-128gb-blue-mgje3ru-a/" } ] } ] }
+{ "category": "Техника", "total": 1, "list": [ { "name": "Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)", "rating": 5, "popularity": 48, "averagePrice": 84990, "logo": "https://static.eldorado.ru/photos/71/715/665/47/new_71566547_l_1602620544.jpeg/resize/200x200/", "markets": [ { "name": "Эьдорадо", "description": "Магазин электроники", "logo": "https://cdn.mapix.ru/img/companies/logo/eldorado.png", "price": 84990, "link": "https://www.eldorado.ru/cat/detail/smartfon-apple-iphone-12-128gb-blue-mgje3ru-a/" } ] } ] }
 
 где 
 - category - название категории товара, получаемое нашей обученной моделью ML.Net,
